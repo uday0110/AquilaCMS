@@ -3659,6 +3659,13 @@ gauge@^3.0.0:
     strip-ansi "^6.0.1"
     wide-align "^1.1.2"
 
+gelf-pro@^1.2.2:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/gelf-pro/-/gelf-pro-1.4.0.tgz#071c43fba1a9f58730a5233264435c99f272f7de"
+  integrity sha512-VXQ1DHQjQr8/Xil83hHgozqeCcVrggGAA6A8hgjojQSatiF6PErR+nnYv/DCBxFBolO6licomD7Abaj0Iec7Qg==
+  dependencies:
+    lodash "~4.17.21"
+
 genson-js@^0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/genson-js/-/genson-js-0.0.8.tgz#b5a2c9dad7b821b0c08f103ccbe2de88e88b1f34"
@@ -4863,7 +4870,7 @@ lodash.merge@^4.6.2:
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
-lodash@4, lodash@4.17.21, lodash@^4.17.14, lodash@^4.17.21:
+lodash@4, lodash@4.17.21, lodash@^4.17.14, lodash@^4.17.21, lodash@~4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -7185,9 +7192,9 @@ swagger-ui-express-updated@^4.1.8:
     swagger-ui-dist "^3.35.2"
 
 systeminformation@^5.7:
-  version "5.18.1"
-  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.18.1.tgz#225a219b5c8a0e53c0e291d390309f53607f9a40"
-  integrity sha512-+4JZcjsYKh8J9fAQ6l0tT8TBck6mbm69+csfZbCUQvCcnCKID9l2JRMQ2ERZ7fznys12go1I9o7AnrLUkjFGeQ==
+  version "5.25.11"
+  resolved "https://registry.yarnpkg.com/systeminformation/-/systeminformation-5.25.11.tgz#7d47a14dafbc9cf6c21bc02d19a2121a8c770d88"
+  integrity sha512-jI01fn/t47rrLTQB0FTlMCC+5dYx8o0RRF+R4BPiUNsvg5OdY0s9DKMFmJGrx5SwMZQ4cag0Gl6v8oycso9b/g==
 
 tar-fs@^2.0.0, tar-fs@^2.1.1:
   version "2.1.1"
@@ -7649,6 +7656,13 @@ winston-daily-rotate-file@4.7.1:
     object-hash "^2.0.1"
     triple-beam "^1.3.0"
     winston-transport "^4.4.0"
+
+winston-gelf@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/winston-gelf/-/winston-gelf-1.7.0.tgz#e4ad069e20e99f09f94fc48c3569ee7d7d18d459"
+  integrity sha512-J6Hc9vMokQPhnAzpmNLWSCjb8759/tO3GOpXK59eqjcsjiCZP4CL9R1jLDlXMtENwPoDD/+VOukppZCraoqbHQ==
+  dependencies:
+    gelf-pro "^1.2.2"
 
 winston-transport@^4.4.0, winston-transport@^4.5.0:
   version "4.5.0"
